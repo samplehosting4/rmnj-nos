@@ -1,19 +1,19 @@
 /*Created by Md Sharique on the date sat 27.4.2019...
 with the help of google*/
-//input a limit and get all ramanujan numbers with   explanations upto the limit
+//input a limit and get all ramanujan numbers with explanations upto the limit
 #include<stdio.h>
 int main()
 {
     int a,b,c,d,a3,b3,c3,d3;
-    long unsigned  int n;
-    printf("Enter a limit :-");
+    long unsigned int n;
+    printf("Enter a limit of numbers:");
     scanf(" %lu",&n);
-    for(a=1;a<=n;a++)
+    for(a=1;a<=n;a++) //starting of main loop
     {
         a3=a*a*a;
         if(a3>n)
         break;
-        for(b=a;b<=n;b++)
+        for(b=a;b<=n;b++)//starting of second loop
         {
             b3=b*b*b;
             if(a3+b3>n)
