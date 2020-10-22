@@ -2,6 +2,7 @@
 with the help of google*/
 //input a limit and get all ramanujan numbers with explanations upto the limit
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
     int a,b,c,d,a3,b3,c3,d3;
@@ -37,4 +38,5 @@ int main()
         }
     }
     return 0;
+     getch();
 }
