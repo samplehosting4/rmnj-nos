@@ -37,5 +37,5 @@ void main()
             }
         }
     }
-     getch();
+     
 }
